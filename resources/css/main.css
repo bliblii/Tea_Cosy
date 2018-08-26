@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.mission {
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+.location {
+    background-image: url("../images/img-locations-background.jpg");
+}
