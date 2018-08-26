@@ -79,13 +79,45 @@ nav a {
     margin: 10px 0;
 }
 
+/*************** TEA SECTION **************/
+.tea {
+    width: 1000px;
+    border: 3px solid pink;
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.picture {
+    width: 300px;
+    height: 200px;
+}
 
+.title {
+    border: 3px solid blue;
+}
 
+.main-container {
+    border: 3px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 3px solid yellow;
+}
 
 
 
 
 /*************** LOCATION SECTION **************/
+
 .location {
     background-image: url("../images/img-locations-background.jpg");
+    position: relative;
+    top: 69px;
 }
