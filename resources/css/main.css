@@ -1,68 +1,69 @@
 body {
+    width: 1250px;
+    margin: 0 auto;
     background-color: black;
     color: seashell;
-    font-size: 22px;
     font-family: Helvetica;
-    opacity: 0.9;
+    font-size: 22px;
     text-align: center;
-    margin: 0 0;
+    opacity: 0.9;
 }
 
 /*************** HEADER **************/
 header {
     height: 69px;
-    width: 100%;
+    width: 1243px;
     background-color: black;
     border-bottom: 1px solid whitesmoke;
     display: flex;
     padding-left: 10px;
+    justify-content: center;
     align-items: center;
     position: fixed;
+    top: 0;
     z-index: 10;
 }
 
 .logo {
-    display: flex;
     height: 50px;
     width: 185px;
+    display: flex;
     align-items: center;
 }
 
 nav {
-    display: flex;
     width: 100%;
     height: 50px;
     padding-right: 10px;
+    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
 nav a {
+    color: seashell;
     text-decoration: underline;
     padding: 0 14px;
-    color: seashell;
 }
-
-
-
 
 /*************** MISSION SECTION **************/
 .mission {
     background-image: url("../images/img-mission-background.jpg");
-    margin: 0 auto;
-    width: 1200px;
+
     height: 700px;
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    top: 66px;
     z-index: 1;
-    top: 69px;
 }
 
 .sub-header {
-    background-color: black;
     width: 1200px;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,42 +83,117 @@ nav a {
 /*************** TEA SECTION **************/
 .tea {
     width: 1000px;
-    border: 3px solid pink;
-    position: relative;
-    top: 69px;
+    margin: 66px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
-.picture {
-    width: 300px;
-    height: 200px;
+    position: relative;
+    top: 69px;
 }
 
 .title {
-    border: 3px solid blue;
+    padding: 15px 0;
+}
+
+.title h2 {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.title h4 {
+    width: 100%;
+    margin: 10px 0;
 }
 
 .main-container {
-    border: 3px solid blueviolet;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.container {
-    border: 3px solid yellow;
+.picture {
+    height: 200px;
+    width: 300px;
+
 }
 
+.container {
+    padding: 5px 15px;
+}
 
-
+.caption {
+    margin: 10px 0;
+}
 
 /*************** LOCATION SECTION **************/
-
 .location {
+    height: 570px; /* supposed to be 500px but the cup can't be seen */
+    width: 1200px;
+    margin: 80px auto 0 auto;
     background-image: url("../images/img-locations-background.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     position: relative;
     top: 69px;
+    opacity: 1;
+}
+
+.location h2 {
+    width: 100%;
+    margin: 0 0;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 0 20px;
+}
+
+.box-container {
+    width: 100%;
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-container {
+    height: 362px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 45px;
+}
+
+/*************** FOOTER **************/
+footer {
+    height: 255px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 57px;
+    right: 3px;
+}
+
+.footer-container {
+    height: 200px;
+    width: 100%;
+}
+
+.copy {
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
