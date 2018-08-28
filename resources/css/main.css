@@ -1,5 +1,5 @@
 body {
-    width: 1250px;
+    width: 1300px;
     margin: 0 auto;
     background-color: black;
     color: seashell;
@@ -9,10 +9,15 @@ body {
     opacity: 0.9;
 }
 
+.background {
+    width: 1225px;
+    margin: 0 auto;
+}
+
 /*************** HEADER **************/
 header {
     height: 69px;
-    width: 1243px;
+    width: 1290px;
     background-color: black;
     border-bottom: 1px solid whitesmoke;
     display: flex;
